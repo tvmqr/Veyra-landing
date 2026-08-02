@@ -76,6 +76,7 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+    text-decoration: none;
 }
 
 .logo img {
@@ -84,7 +85,7 @@ body {
     width: auto;
 }
 
-.logo a {
+.logo span {
     font-family: 'Geist', sans-serif;
     font-weight: 500;
     font-size: 24px;
