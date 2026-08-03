@@ -9,6 +9,7 @@
 body {
     padding-top: 80px;
     /* appearance */
+    font-family: 'Geist', sans-serif;
     background-color: #FFFFFF;
 }
 
@@ -161,6 +162,58 @@ body {
     background: var(--Primary-a10);
 }
 
+
+
+
+
+/* ===== HERO ===== */
+
+.hero_section {
+    padding: 32px 0 24px;
+    /* flex */
+    display: flex; 
+    flex-direction: column;
+    gap: 32px;
+    /* appearance */
+    background-color: var(--Light);
+}
+
+
+/* ===== first hero container ===== */
+
+.first_hero_container {
+    /* flex */
+    display: flex; 
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* hero title */
+
+.hero-title {
+    font-size: 36px;
+    text-align: center;
+    /* appearance */
+    font-family: 'Libre Caslon Condensed', serif;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: var(--Primary);
+}
+
+.hero-title .italic {
+    font-style: italic;
+}
+
+/* hero paragraph */
+
+.hero-paragraph {
+    font-size: 18px;
+    text-align: center;
+    /* appearance */
+    color: var(--Primary-a70);
+}
+
+/* button wrapper */
 
 
 
