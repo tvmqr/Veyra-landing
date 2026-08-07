@@ -498,6 +498,11 @@ body {
     font-weight: bold;
 }
 
+
+.two-hero-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/images/hero-card-two.jpg);
+}
+
 .next-content---hero-card-two p {
     color: var(--Light);
 }
@@ -509,20 +514,59 @@ body {
 
 
 
-.two-hero-card {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/images/hero-card-two.jpg);
+/* ===== BENEFITS ===== */
+
+.benefits {
+    padding: 32px 0;
+    /* appearance */
+    background-color: var(--Light);
+}
+
+.benefits-flex {
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 
+.benefits__card {
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
 
 
+.benefits__card img {
+    height: 40px;
+    width: 40px;
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
 
 
+.benefits__card-content {
+    /* flex */
+    display: flex;
+    flex-direction: column;
+}
 
+.benefits__card-content span {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--Primary);
+    line-height: 140%;
+}
 
-
-
-
+.benefits__card-content p {
+    font-size: 16px;
+    color: var(--Primary-a70);
+    line-height: 150%;
+}
 
 
 
