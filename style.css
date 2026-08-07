@@ -570,6 +570,25 @@ body {
 
 
 
+/* ===== OURAPPROACH ===== */
+
+.ourapproach {
+    padding: 64px 0;
+}
+
+.ourapproach-content p {
+    font-size: 32px;
+    font-family: 'Libre Caslon Condensed', serif;
+    color: var(--Primary);
+    line-height: 110%;
+    letter-spacing: -3%;
+    text-align: center;
+}
+
+
+
+
+
 
 
 /* ===== DESKTOP (≥992px) ===== */
