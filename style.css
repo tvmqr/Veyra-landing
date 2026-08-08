@@ -87,10 +87,10 @@ body {
 }
 
 .logo span {
-    font-family: 'Geist', sans-serif;
     font-weight: 500;
     font-size: 24px;
     color: var(--Primary);
+    letter-spacing: -3%;
 }
 
 
@@ -213,6 +213,7 @@ body {
 .hero-paragraph {
     font-size: 18px;
     text-align: center;
+    line-height: 140%;
     /* appearance */
     color: var(--Primary-a70);
 }
@@ -240,12 +241,14 @@ body {
 
 .get-started {
     /* appearance */
+    font-weight: 500;
     color: var(--White);
     background-color: var(--Primary);
 }
 
 .request-a-demo {
     /* appearance */
+    font-weight: 500;
     color: var(--Primary);
     background-color: var(--Primary-a10);
 }
@@ -263,9 +266,7 @@ body {
 .backed-by span {
     font-family: 'Geist Mono', monospace;
     font-size: 12px;
-    font-weight: 400;
-    line-height: 1.4;
-    letter-spacing: 0.08em;
+    letter-spacing: 8%;
 }
 
 .top-industry-leaders {
@@ -303,6 +304,7 @@ body {
 .one-hero-card span, .two-hero-card span {
     color: var(--White);
     font-size: 18px;
+    font-weight: 500;
 }
 
 .one-hero-card-content, .two-hero-card-content {
@@ -365,6 +367,7 @@ body {
 .jane-smith-name-main {
     display: block;
     font-size: 12px;
+    font-weight: 500;
     font-family: 'Geist';
     color: var(--Primary);
 }
@@ -412,10 +415,11 @@ body {
 }
 
 .filter---complete-tablo a:first-child {
-    padding-bottom: 2px;
+    padding-bottom: 4px;
     /* appearance */
     color: var(--Primary);
-    border-bottom: 1px solid var(--Primary);
+    font-weight: 500;
+    border-bottom: 1.5px solid var(--Primary);
 }
 
 
@@ -465,6 +469,7 @@ body {
     font-size: 10px;
     /* appearance */
     background-color: var(--Primary);
+    font-family: 'BDO Grotesk', sans-serif;
     color: var(--White);
     border-radius: 100px;
 }
