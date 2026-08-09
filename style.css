@@ -922,6 +922,161 @@ body {
 
 
 
+/* ===== PROMO-WORKFOLLOW ===== */
+
+.promo-workfollow {
+    padding: 32px 0;
+}
+
+.promo-workfollow_content {
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* info */
+
+.promo-workfollow__info {
+    padding: 32px 0;
+}
+
+.promo-workfollow__info__content {
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.promo-workfollow__info__content h2 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Libre Caslon Condensed', serif;
+    letter-spacing: -3%;
+    line-height: 110%;
+    color: var(--Primary);
+}
+
+.promo-workfollow__info__content p {
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--Primary-a70);
+}
+
+/* visual */
+
+.promo-workfollow__visual {
+    padding: 32px 24px;
+    background-color: var(--Light);
+}
+
+.promo-workfollow__visual__content {
+    padding: 18px;
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* appearance */
+    background-color: var(--White);
+    border-radius: 6px;
+}
+
+
+.pw__v__one-message, .pw__v__two-message {
+    display: flex;
+    gap: 12px;
+}
+
+.pw__v__one-message img, .pw__v__two-message img {
+    height: 41px;
+    width: 41px;
+    object-fit: cover;
+}
+
+
+.pw__v__one-message--content {
+    padding: 12px;
+    border-radius: 6px;
+    background-color: var(--Primary-a10);
+}
+
+.pw__v__one-message--content p {
+    font-size: 10px;
+    line-height: 140%;
+    color: var(--Primary);
+}
+
+
+.pw__v__two-message--content {
+    padding: 12px;
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* appearance */
+    border: 1.5px solid var(--Primary-a20);
+    border-radius: 6px;
+}
+
+.pw__v__two-message--content p {
+    font-size: 10px;
+    line-height: 140%;
+    color: var(--Primary);
+}
+
+
+.pw__v__two-message--draganddrop {
+    padding: 12px 0;
+    width: 100%;
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    /* appearance */
+    border: 1.5px dashed var(--Primary-a20);
+    border-radius: 6px;
+}
+
+.pw__v__two-message--draganddrop img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.draganddrop--text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.draganddrop--text--here {
+    font-size: 10px;
+    color: var(--Primary);
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.draganddrop--text--maxweight {
+    font-size: 10px;
+    color: var(--Primary-a70);
+    line-height: 140%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
