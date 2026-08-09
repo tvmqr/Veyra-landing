@@ -1187,29 +1187,70 @@ body {
 
 
 
+/* ===== PROMO-TESTIMONIAL ===== */
+
+.promo-testimonial {
+    padding: 0 0 16px;
+}
+
+.promo-testimonial__backimg {
+    padding: 24px;
+    background-image: url('assets/images/promo-testimonial-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+
+.promo-testimonial__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.promo-testimonial__content p {
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--White);
+}
+
+.promo-testimonial__bottom-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo-testimonial--autors {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--White);
+}
+
+.promo-testimonial--statusoftheautors {
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--With-a70);
+}
 
 
+.promo-testimonial__videoblock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.promo-testimonial__videoblock span {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--White);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.promo-testimonial__videoblock img {
+    height: 52px;
+    width: 52px;
+    object-fit: cover;
+}
 
 
 
