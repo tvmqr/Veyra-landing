@@ -994,6 +994,10 @@ body {
 }
 
 
+.pw__v__one-message {
+    align-self: flex-end;
+}
+
 .pw__v__one-message--content {
     padding: 12px;
     border-radius: 6px;
