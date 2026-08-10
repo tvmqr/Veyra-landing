@@ -1254,48 +1254,139 @@ body {
 
 
 
+/* ===== PRODUCT-COMPARISON ===== */
+
+.product-comparison {
+    padding: 64px 0;
+    background-color: var(--Primary);
+}
+
+.product-comparison__content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 
 
+/* topsect */
+
+.product-comparison__topsect {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.product-comparison__topsect h2 {
+    font-family: 'Geist Mono', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 8%;
+    color: var(--White);
+}
+
+.product-comparison__topsect p {
+    font-family: 'Libre Caslon Condensed', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: -3%;
+    color: var(--White);
+}
 
 
+/* middlesect */
+
+.table-veyra-icon {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-veyra-icon img {
+    width: 17px;
+    height: 17px;
+    object-fit: cover;
+}
+
+/* table */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border-bottom: 1px solid var(--With-a20);
+  padding: 24px 0;
+  text-align: center;
+}
+
+th {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--White);
+}
+
+tbody th {
+    text-align: left;
+    max-width: 120px;
+}
+
+td {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--White);
+}
 
 
+/* bottomsect */
+
+.product-comparison__bottomsect {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+}
 
 
+.product-comparison__bottomsect--thisbro {
+    display: flex;
+}
+
+.product-comparison__bottomsect--thisbro img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    margin: -5px;
+}
 
 
+.product-comparison__bottomsect--needsomehelp p {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--White);
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.product-comparison__bottomsect--contactlink {
+    height: 48px;
+    width: 112px;
+    background-color: var(--With-a10);
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text */
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--White);
+    text-decoration: none;
+}
 
 
 
