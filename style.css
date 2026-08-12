@@ -1896,6 +1896,158 @@ td {
 
 
 
+/* ===== FOOTER ===== */
+
+.footer-section {
+    padding: 64px 0 24px;
+    background-color: var(--Primary);
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+/* logo */
+
+.footer__logo {
+    display: flex;
+    gap: 8px;
+}
+
+.footer__logo img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.footer__logo span {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -3%;
+    color: var(--White);
+}
+
+
+/* promo */
+
+.footer__promo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footer__promo h2 {
+    font-family: 'Libre Caslon Condensed', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: -3%;
+    color: var(--White);
+}
+
+
+.footer__text-and-link {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__text-and-link p {
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--White);
+}
+
+.footer__text-and-link a {
+    background-color: var(--White);
+    height: 56px;
+    width: 100%;
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text  */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--Primary);
+    text-decoration: none;
+}
+
+
+/* end */
+
+.footer__end {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__end__columns {
+    padding: 40px 0;
+    border-top: 1px solid var(--With-a20);
+    border-bottom: 1px solid var(--With-a20);
+    /* grid */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px; 
+    row-gap: 32px;
+}
+
+/* copyright */
+
+.footer__end__copyright {
+    padding-top: 40px;
+}
+
+.footer__end__copyright p {
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--With-a50);
+}
+
+
+
+/* one column */
+
+.footer__end__one-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__end__one-column h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--White);
+}
+
+
+.footer__end__one-column--list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__end__one-column--list a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--With-a50);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer__end__one-column--list a:hover {
+    color: var(--White);
+}
 
 
 
