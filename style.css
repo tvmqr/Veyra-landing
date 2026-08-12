@@ -473,6 +473,7 @@ body {
     font-family: 'BDO Grotesk', sans-serif;
     color: var(--White);
     border-radius: 100px;
+    cursor: pointer;
 }
 
 
@@ -516,6 +517,11 @@ body {
 .next-content---hero-card-two a {
     background-color: var(--With-a20);
     border: 1px solid var(--With-a20);
+}
+
+.next-content---hero-card-two a:focus-visible {
+    outline: 2px solid var(--Light);
+    outline-offset: 2px;
 }
 
 
@@ -1257,6 +1263,12 @@ body {
     object-fit: cover;
 }
 
+.promo-testimonial__videoblock a:focus-visible {
+    outline: 2px solid var(--Light);
+    outline-offset: 2px;
+}
+
+
 
 
 /* ===== PRODUCT-COMPARISON ===== */
@@ -1393,6 +1405,12 @@ td {
     text-decoration: none;
 }
 
+.product-comparison__bottomsect--contactlink:focus-visible {
+    outline: 2px solid var(--Light);
+    outline-offset: 2px;
+}
+
+
 
 
 /* ===== PROMO-REVIEWS ===== */
@@ -1458,7 +1476,6 @@ td {
     background-color: var(--Primary-a10);
     border: none;
     outline: none;
-
 }
 
 .promo-reviews__head__scroll--leftbtn {
@@ -1468,6 +1485,11 @@ td {
 
 .promo-reviews__head__scroll--rightbtn {
     cursor: pointer;
+}
+
+.promo-reviews__head__scroll--rightbtn:focus-visible {
+    outline: 2px solid var(--Primary);
+    outline-offset: 2px;
 }
 
 .promo-reviews--leftbtnimg, .promo-reviews--rightbtnimg {
@@ -1644,6 +1666,7 @@ td {
 
 .newcard__content__top {
     display: flex;
+    justify-content: space-between;
     gap: 48px;
 }
 
@@ -1978,6 +2001,11 @@ td {
     text-decoration: none;
 }
 
+.footer__text-and-link a:focus-visible {
+    outline: 2px solid var(--Light);
+    outline-offset: 2px;
+}
+
 
 /* end */
 
@@ -1996,19 +2024,6 @@ td {
     column-gap: 16px; 
     row-gap: 32px;
 }
-
-/* copyright */
-
-.footer__end__copyright {
-    padding-top: 40px;
-}
-
-.footer__end__copyright p {
-    font-size: 12px;
-    line-height: 150%;
-    color: var(--With-a50);
-}
-
 
 
 /* one column */
@@ -2047,6 +2062,24 @@ td {
 
 .footer__end__one-column--list a:hover {
     color: var(--White);
+}
+
+.footer__end__one-column--list a:focus-visible {
+    outline: 2px solid var(--Light);
+    outline-offset: 2px;
+}
+
+
+/* copyright */
+
+.footer__end__copyright {
+    padding-top: 40px;
+}
+
+.footer__end__copyright p {
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--With-a50);
 }
 
 
