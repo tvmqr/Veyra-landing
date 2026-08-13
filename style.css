@@ -10,7 +10,7 @@ body {
     padding-top: 80px;
     /* appearance */
     font-family: 'Geist', sans-serif;
-    background-color: #FFFFFF;
+    background-color: var(--White);
 }
 
 .container {
@@ -2184,6 +2184,23 @@ td {
     }
 
 
+    .announcing__content,
+    .flex-hero_section,
+    .benefits-flex,
+    .ourapproach-content,
+    .promoai_content,
+    .promo-insights_content,
+    .promo-workfollow_content,
+    .promo-result__container,
+    .product-comparison__content,
+    .promo-reviews__content,
+    .promo-news__content,
+    .faq__content,
+    .footer__content {
+        grid-column: 2 / 12;
+    }
+
+
 
 
 
@@ -2353,5 +2370,140 @@ td {
         padding: 16px 0;
         font-size: 14px;
     }
+
+
+
+
+
+    /* ===== BENEFITS ===== */
+
+    .benefits {
+        padding: 72px 0;
+    }
+
+    .benefits-flex {
+        flex-direction: row;
+    }
+
+    .benefits__card {
+        max-width: 448px;
+    }
+
+
+
+
+
+    /* ===== OURAPPROACH ===== */
+
+    .ourapproach-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .ourapproach-content p {
+        font-size: 56px;
+    }
+
+
+
+
+    /* ===== PROMOIA ===== */
+
+    .promoai {
+        padding: 72px 0;
+    }
+
+    .promoai_content {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+
+    .promoai_content-text {
+        min-height: 520px;
+        grid-column: 1 / 6;
+        justify-content: center;
+    }
+    
+    .promoai_content-text h2 {
+        font-size: 56px;
+        max-width: 448px;
+    }
+
+    .promoai_content-text p {
+        max-width: 448px;
+    }
+
+
+    .promoai_content-preview {
+        min-height: 520px;
+        padding: 0 24px;
+        grid-column: 6 / 13;
+        gap: 24px;
+        justify-content: center;
+    }
+
+    .promoai_content-preview h3 {
+        font-size: 36px;
+    }
+
+
+    .promoai_content-preview-screen {
+        padding: 24px;
+        gap: 8px;
+        /* max-width: 524px; */
+        margin: 0 auto;
+    }
+
+    .p_c-p-screen-question {
+        padding: 6px 16px 6px 6px;
+    }
+
+    .p_c-p-s-question-leftcontent {
+        gap: 16px;
+    }
+
+    .p_c-p-s-question-leftcontent img {
+        height: 52px;
+        width: 52px;
+    }
+
+    .p_c-p-s-question-leftcontent p {
+        font-size: 14px;
+    }
+
+    .p_c-p-s-question-rightcontent {
+        gap: 8px;
+    }
+
+    .p_c-p-s-question-rightcontent img {
+        height: 24px;
+        width: 24px;
+    }
+
+
+    .p_c-p-screen-answer {
+        padding: 24px;
+        gap: 16px;
+    }
+
+    .p_c-p-screen-answer p {
+        font-size: 14px;
+    }
+
+    .p_c-p-screen-answer-filter {
+        gap: 16px;
+    }
+
+    .p_c-p-screen-answer-filter span {
+        font-size: 14px;
+    }
+
+    .p_c-p-screen-answer-filter span:first-child {
+        padding-bottom: 8px;
+        border-bottom: 2px solid var(--Primary);
+    }
+
+
 
 }
