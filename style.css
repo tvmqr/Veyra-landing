@@ -2185,7 +2185,7 @@ td {
 
 
 
-    
+
 
     /* ===== HEADER ===== */
 
@@ -2214,6 +2214,144 @@ td {
     .announcing__content {
         display: flex;
         grid-column: 2 / 12;
+    }
+
+
+
+
+
+    /* ===== HERO ===== */
+
+    .hero_section {
+        padding: 72px 0 48px;
+    }
+
+    .flex-hero_section {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+    }
+
+
+    /* first */
+
+    .first_hero_container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+
+    .hero-title {
+        font-size: 64px;
+    }
+
+    .first_hero_container p {
+        max-width: 566px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .button-wrapper {
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .get-started {
+        width: 123px;
+    }
+
+    .request-a-demo {
+        width: 183px;
+    }
+
+    .backed-by {
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+
+    /* second */
+
+    .grid_second_hero_container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .second_hero_container {
+        flex-direction: row;
+        grid-column: 2 / 12;
+    }
+
+
+    .one-hero-card {
+        width: 920px;
+        height: 560px;
+    }
+
+    .two-hero-card {
+        width: 448px;
+        height: 560px;
+    }
+
+
+    .jane-smith-card {
+        max-width: 424px;
+        margin: 0 auto;
+        padding: 24px;
+        margin-bottom: 36px;
+        gap: 24px;
+    }
+
+    .left-jane-smith-profil {
+        gap: 16px;
+    }
+
+    .left-jane-smith-profil img {
+        height: 56px;
+        width: 56px;
+    }
+
+    .jane-smith-name-main {
+        font-size: 16px;
+    }
+
+    .jane-smith-job-title {
+    font-size: 14px;
+    }
+    
+    .link-jane-smith-profil {
+    width: 36px;
+    height: 36px;
+    }
+
+    .filter---complete-tablo {
+        gap: 16px;
+    }
+
+    .filter---complete-tablo a {
+        font-size: 14px;
+    }
+
+    .complete {
+        padding: 16px 0;
+    }
+
+    .left-complete-info a {
+        width: 22px;
+        height: 22px;
+    }
+
+    .left-complete-info span {
+        font-size: 18px;
+    }
+    
+    .complete span {
+        font-size: 14px;
+    }
+
+    .jane-smith---start-now {
+        padding: 16px 0;
+        font-size: 14px;
     }
 
 }
