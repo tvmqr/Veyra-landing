@@ -1697,12 +1697,20 @@ td {
     align-items: center;
 }
 
+.promo-news__head div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
 .promo-news__head span {
     font-family: 'Geist Mono', monospace;
     font-size: 12px;
     line-height: 140%;
     letter-spacing: 8%;
     color: var(--Primary);
+    text-transform: uppercase;
 }
 
 .promo-news__head h2 {
@@ -2887,4 +2895,52 @@ td {
         font-size: 20px;
     }
 
+
+
+
+
+    /* ===== PROMO-NEWS ===== */
+
+    .promo-news {
+        padding: 112px 0;
+    }
+
+    .promo-news__content {
+        gap: 72px;
+    }
+
+
+    /* head */
+
+    .promo-news__head h2 {
+        font-size: 56px;
+    }
+
+    .promo-news__head {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .promo-news__head div {
+        align-items: flex-start;
+    }
+
+    .promo-news__head a {
+        margin-top: auto;
+    }
+
+
+    /* cards */
+
+    .promo-news__cards {
+        flex-direction: row;
+    }
+
+    .promo-news__newcard__content {
+        padding-top: 24px;
+    }
+
+    .newcard__content__top h3 {
+        font-size: 20px;
+    }
 }
