@@ -2676,4 +2676,45 @@ td {
     }
 
 
+
+
+
+    /* ===== PROMO-RESULT ===== */
+
+    .promo-result {
+        padding: 112px 0;
+    }
+    
+    .promo-result__container {
+        gap: 72px;
+        align-items: center;
+    }
+
+
+    
+    .promo-result__info {
+        max-width: 620px;
+        text-align: center;
+    }
+
+    .promo-result__info h2 {
+        font-size: 56px;
+    }
+
+
+
+    .promo-result__cards {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .pr--c__top-card-content span {
+        font-size: 56px;
+    }
+
+    .pr--c__bottom-card-content span {
+        font-size: 20px;
+    }
+
+
 }
