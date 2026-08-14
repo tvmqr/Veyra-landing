@@ -2988,4 +2988,50 @@ td {
     .faq__footer__bro-and-text p {
         text-align: left;
     }
+
+
+
+
+
+    /* ===== FOOTER ===== */
+
+    .footer-section {
+        padding: 112px 0 48px;
+    }
+
+    .footer__content {
+        gap: 72px;
+    }
+
+
+    /* footer promo */
+
+    .footer__promo {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer__promo h2 {
+        font-size: 56px;
+        max-width: 566px;
+    }
+
+
+    .footer__text-and-link {
+        max-width: 440px;
+    }
+
+    .footer__text-and-link a {
+        max-width: 183px;
+    }
+
+
+    /* footer end columns */
+
+    .footer__end__columns {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 10%;
+    }
+    
 }
