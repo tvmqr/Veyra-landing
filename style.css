@@ -565,6 +565,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5px;
 }
 
 .next-content---hero-card-one p, .next-content---hero-card-two p {
@@ -822,15 +823,16 @@ body {
     gap: 8px;
 }
 
-.p_c-p-screen-answer-filter span {
+.p_c-p-screen-answer-filter a {
     display: inline-block;
     font-size: 8px;
     /* appearance */
     font-family: 'Geist';
     color: var(--Primary-a50);
+    text-decoration: none;
 }
 
-.p_c-p-screen-answer-filter span:first-child {
+.p_c-p-screen-answer-filter a:first-child {
     padding-bottom: 4px;
     /* appearance */
     color: var(--Primary);
@@ -1883,7 +1885,7 @@ td {
 }
 
 
-.faq__accordion__item__question p {
+.faq__accordion__item__question p, .faq__accordion__item__question span {
     font-size: 18px;
     font-weight: 500;
     line-height: 140%;
@@ -2969,7 +2971,7 @@ td {
         font-size: 56px;
     }
 
-    .faq__accordion__item__question p {
+    .faq__accordion__item__question p, .faq__accordion__item__question span {
         font-size: 20px;
     }
 
@@ -3033,5 +3035,5 @@ td {
         justify-content: space-between;
         padding-right: 10%;
     }
-    
+
 }
