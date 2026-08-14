@@ -2943,4 +2943,49 @@ td {
     .newcard__content__top h3 {
         font-size: 20px;
     }
+
+
+
+
+
+    /* ===== FUCK-YOU ===== */
+
+    .faq {
+        padding: 112px 0;
+    }
+
+    .faq__content {
+        gap: 72px;
+    }
+
+
+    /* head */
+
+    .faq__head {
+        max-width: 566px;
+    }
+
+    .faq__head h2 {
+        font-size: 56px;
+    }
+
+    .faq__accordion__item__question p {
+        font-size: 20px;
+    }
+
+
+    /* faq footer */
+
+    .faq__footer {
+        align-items: flex-start;
+    }
+
+    .faq__footer__bro-and-text {
+        flex-direction: row;
+        margin-left: 5px;
+    }
+
+    .faq__footer__bro-and-text p {
+        text-align: left;
+    }
 }
