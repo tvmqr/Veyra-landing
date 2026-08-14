@@ -1542,6 +1542,7 @@ td {
     line-height: 140%;
     letter-spacing: 8%;
     color: var(--Primary);
+    text-transform: uppercase;
 }
 
 .promo-reviews__head__text h2 {
@@ -2816,4 +2817,74 @@ td {
     .product-comparison__bottomsect--needsomehelp {
         text-align: left;
     }
+
+
+
+
+
+    /* ===== PROMO-REVIEWS ===== */
+
+    .promo-reviews {
+        padding: 112px 0;
+    }
+
+    .promo-reviews__content {
+        gap: 72px;
+    }
+
+
+    /* head */
+
+    .promo-reviews__head__text {
+        max-width: 566px;
+    }
+
+    .promo-reviews__head__text h2 {
+        font-size: 56px;
+    }
+
+    .promo-reviews__head {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .promo-reviews__head__scroll {
+        margin-top: auto;
+    }
+
+
+    /* review */
+
+    .promo-reviews__review {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+
+    .promo-reviews__review img {
+        grid-column: 1 / 5;
+    }
+
+
+    .promo-reviews__review-text {
+        grid-column: 5 / 13;
+        height: auto;
+    }
+
+    .promo-reviews__review-text__content {
+        max-width: 648px;
+    }
+
+    .review-text__top--firstpart {
+        font-size: 28px;
+    }
+
+    .promo-reviews__review-text__bottom {
+        align-items: center;
+    }
+
+    .promo-reviews__review-text__bottom div span {
+        font-size: 20px;
+    }
+
 }
