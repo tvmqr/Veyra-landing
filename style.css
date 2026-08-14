@@ -2513,6 +2513,10 @@ td {
         gap: 1rem;
     }
 
+    .p_c-p-screen-answer-filter a {
+        font-size: .875rem;
+    }
+
     .p_c-p-screen-answer-filter span {
         font-size: .875rem;
     }
